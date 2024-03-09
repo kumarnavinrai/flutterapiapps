@@ -31,6 +31,32 @@ class ApiServices{
     
     
   }
-  
-  
+
+  // With header code
+
+  // Future<RegisterModel?> register(String email, String password) async {
+  //   try {
+  //     var url = Uri.parse("https://reqres.in/api/register");
+  //
+  //     var headers = {
+  //       "Authorization": "Bearer {your access token}", // Replace with your actual token
+  //     };
+  //
+  //     var response = await http.post(url, body: {
+  //       "email": email,
+  //       "password": password,
+  //     }, headers: headers); // Pass the headers here
+  //
+  //     if (response.statusCode == 200) {
+  //       RegisterModel model = RegisterModel.fromJson(jsonDecode(response.body));
+  //       return model;
+  //     }
+  //   } catch (e) {
+  //     print(e);
+  //   }
+  //   return null;
+  // }
+
+
+
 }

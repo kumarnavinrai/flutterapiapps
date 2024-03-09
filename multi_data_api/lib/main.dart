@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:getapilist/screen_with_model.dart';
-import 'package:getapilist/screen_without_model.dart';
+import 'package:multi_data_api/screen_with_model.dart';
+import 'package:multi_data_api/screen_without_model.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ScreenWithOutModel(),
+      home: const ScreenWithModel(),
     );
   }
 }
-
